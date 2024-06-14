@@ -1,0 +1,4 @@
+sdft
+This is example of Buffered Reader
+x
+complete my writing
