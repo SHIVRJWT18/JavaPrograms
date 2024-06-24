@@ -20,7 +20,7 @@ public class FibnocciiSeries {
 	 
 	
 	 
-	 System.out.println(".."+z);
+	 System.out.print(".."+z);
 	 
 	 GetFibnocciiSeries(count-1); // calling same method 
 	}	
@@ -31,7 +31,7 @@ public class FibnocciiSeries {
 	public static void main(String[] args) {
 		
 		int count =11;
-		System.out.println(x+".."+y);
+		System.out.print(x+".."+y);
 		FibnocciiSeries.GetFibnocciiSeries(count-2);
 
 	}

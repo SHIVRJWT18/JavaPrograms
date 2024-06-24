@@ -1,8 +1,9 @@
 package CollectionFrmwrk;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.LinkedList;
-
+import java.util.RandomAccess;
 
 import org.testng.annotations.Test;
 
@@ -11,16 +12,21 @@ public class ListDemo
     @Test
 	public void ArrayListDemo()
 	{
-    	ArrayList<String> al = new ArrayList<String>();
+    	ArrayList al = new ArrayList();
     	al.add("Puneet");
     	al.add("Rakesh");
     	al.add("Sonu");
     	al.add("Abhishek");
     	al.add("Tannu");
     	al.add("Puneet");
-    	
-    	System.out.println("Total List: "+al.size());
+    	al.add(10);
+    	al.add(null);
     	System.out.println("Before Removal: "+al);
+    	
+    	al.add(3,"Shiv");
+    	al.add(2,"Puneet");
+    	System.out.println("Total List: "+al.size());
+    	
     	al.remove(5);
     	System.out.println("After Removal: "+al);
     	
@@ -43,5 +49,17 @@ public class ListDemo
         System.out.println("Before Removal: "+ll);
     }
     
+    
+    @Test
+    public void CheckImplementation()
+    {
+    	ArrayList alist = new ArrayList();
+    	LinkedList llist = new LinkedList();
+    	
+    	System.out.println(alist instanceof Serializable); //t
+    	System.out.println(llist instanceof Cloneable); //t
+    	System.out.println(alist instanceof RandomAccess); //t
+    	System.out.println(llist instanceof RandomAccess); //f
+    }
 
 }

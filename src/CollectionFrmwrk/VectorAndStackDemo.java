@@ -53,6 +53,7 @@ public class VectorAndStackDemo {
     	//Last In First Out
     	
     	System.out.println(s.empty());
+    	System.out.println(s);
         System.out.println("Stack Element: "+s.search("Rakesh")); //2
         System.out.println("Stack Element: "+s.search("Puneet")); //1
         System.out.println("Stack Element: "+s.search("Abhishek")); //-1  Not found
