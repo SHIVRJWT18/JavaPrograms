@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class EnumerationDemo 
 {
-
+    // Useful for Legacy Classes(comming from old versions) such as Vector and Stack
 	@Test
 	public void EnumerationDemoforVector()
 	{
