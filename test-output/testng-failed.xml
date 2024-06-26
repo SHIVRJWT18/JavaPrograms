@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="FileHandling.RemoveDublicateContentOfTwoFileAndUpdateNewFile">
+      <class name="CollectionFrmwrk.CSO_ComparatorInterfaceStringObjectDemo">
         <methods>
-          <include name="RemoveDublicateContentInF4FromF2AndUpdateInNewFileF6"/>
+          <include name="GetCustomSortingStringBufferObjectWithComparator"/>
         </methods>
-      </class> <!-- FileHandling.RemoveDublicateContentOfTwoFileAndUpdateNewFile -->
+      </class> <!-- CollectionFrmwrk.CSO_ComparatorInterfaceStringObjectDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
