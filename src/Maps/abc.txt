@@ -1,0 +1,6 @@
+#Updated by Administrator
+#Sat Jun 29 17:17:58 IST 2024
+Password=admin1@1
+Url=https\://www.google.com
+Username=admin
+Usertype=Employee
