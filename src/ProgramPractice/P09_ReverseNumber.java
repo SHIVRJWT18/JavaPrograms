@@ -1,4 +1,4 @@
-package JavaPrograms;
+package ProgramPractice;
 
 public class P09_ReverseNumber {
 	
